@@ -515,7 +515,7 @@ function evaluateTicTacToePosition(position) {
   if (position[0][0] === position[1][1]
     && position[0][0] === position[2][2]) { return position[0][0]; }
   if (position[0][2] === position[1][1]
-    && position[0][2] === position[2][2]) { return position[0][2]; }
+    && position[0][2] === position[2][0]) { return position[0][2]; }
   return undefined;
 }
 
